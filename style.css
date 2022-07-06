@@ -1,0 +1,153 @@
+/* essential */
+a{
+    text-decoration:none;
+    color:none;
+    cursor: pointer;
+}
+h1,h2,h3,h4{
+    font-family: 'Inter', sans-serif;
+    margin-bottom:10px;
+}
+P{
+    font-family: 'Poppins', sans-serif;
+}
+.button{
+    outline:none;
+    color: #fff !important;
+    background:#FF5959;
+    width:160px;
+    height: 56px;
+    border-radius:5px;
+    padding: 12px 16px;
+    margin-top:15px;
+    
+}
+img{
+    max-width:100%;
+}
+
+/* section-bn */
+
+.top-banner-section{
+    background:url(./images/donation13.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 475px;
+    padding:5;
+    color:#fff;
+}
+.top-banner{
+    max-width:60%;
+    margin: auto;
+    text-align-last: center;
+}
+.top-banner h1{
+    font-size:42px;
+    font-weight:700;
+    letter-spacing:1px;
+    margin-bottom:6px;
+}
+.top-banner p{
+    margin-bottom:40px;
+}
+/*Donate-count*/
+.donate-heading{
+    max-width:60%;
+    margin:auto;
+    text-align-last:center;
+}
+.donate-counter{
+    max-width:65%;
+    margin:auto;
+}
+/* card */
+.donate-counter .card{
+    border:none;
+    height: 90px;
+    border-radius:5px;
+    background:#f8f6f6f6;
+    text-align: center;
+}
+.donate-counter .card h4{
+    line-height:2em;
+}
+.donate-counter .card:hover{
+    border:1px solid #FF5959;
+    background:#FFEEEE;
+    color:#FF5959;
+    transition: .5s;
+}
+.donate-amount-buttn{
+    max-width:65%;
+    margin:auto;
+}
+.donate-amount-buttn p{
+    margin-bottom:30px;
+    border-bottom:1px solid #DADADA;
+}
+/* donate plan card */
+.donate-plan .card{
+    border:none;
+    padding: 25px;
+}
+.donate-plan .card-body{
+    padding:3px 0;
+    margin-top:30px;
+}
+.card img{
+    width:58.13px;
+    height: 49.77px;
+}
+.donate-card1{
+    background:#4F9DA6;
+}
+.donate-card2{
+    background:#f770707e;
+}
+.donate-card3{
+    background:#FFF4D6;
+}
+
+.donation-img img{
+    border-radius:5px;
+}
+
+.mail-me{
+    width: 808px;
+    height: 180px;
+    border-radius:5px;
+    background:#fff3d2;
+    margin:auto;
+}
+.email{
+    width:275px;
+    height:48px;
+    border-radius:5px 0px 0px 5px;
+    border:none;background:#D9D9D9;
+    padding-left:5px;
+}
+.submit{
+    width:157px;
+    height:48px;
+    border-radius:0px 5px 5px 0px;
+    color:#fff;
+    background:#FF5959;
+    border:none;
+}
+
+/* footer */
+.footer{
+    background:black;
+    color:#fff;
+    height: 177px;
+}
+.footer-head{
+    text-align:center;
+}
+.footer-head h2{
+    font-family: 'Lobster', cursive;
+    color:#FF5959;
+}
+.footer-head p{
+    display: block;
+}
